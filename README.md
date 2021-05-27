@@ -12,6 +12,7 @@ git status - show which file was modified
 git diff - show the changes for each line  
 git reset --hard - revert the changes made locally  
 git add -p - allow you to look at small chunks of code, and stage them one by one  
+git restore --staged file-to-be-unstaged  
 git commit -m "commit message" - commit your changes locally
 git push --set-upstream origin branch-name - create your local branch remotely and push changes    
 git push - update remote with your local changes
