@@ -16,4 +16,10 @@ git restore --staged file-to-be-unstaged
 git commit -m "commit message" - commit your changes locally
 git push --set-upstream origin branch-name - create your local branch remotely and push changes    
 git push - update remote with your local changes
-git rebase  
+
+# How to rebase
+git checkout master 
+git pull (to update your local with the latest changes in master)
+git checkout your_branch
+git rebase master (check if there are any conflicts)
+git push -f
